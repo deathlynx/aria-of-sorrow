@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Aria of Sorrow</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #0e0e11;
+      color: #e6e6eb;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+      max-width: 680px;
+      margin: 80px auto;
+      padding: 0 24px;
+    }
+    h1 {
+      font-size: 1.6rem;
+      font-weight: normal;
+      margin-bottom: 2rem;
+    }
+    p {
+      margin: 0 0 1.2rem 0;
+    }
+    .divider {
+      margin: 2rem 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Aria of Sorrow</h1>
+
+<p>An origin settles into place.<br>
+Continuation is assumed.</p>
+
+<div class="divider">—</div>
+
+<p>Some endings arrive without ceremony.<br>
+What is remembered shapes what follows.<br>
+Every outcome begins somewhere unseen.<br>
+Certain choices cannot be undone.<br>
+What remains tends to endure quietly.</p>
+
+<p>Systems keep their own records.<br>
+Sound fades, but echoes do not.<br>
+Unchecked structures slowly break down.<br>
+Patterns repeat even when denied.<br>
+Adjustment usually comes too late.<br>
+Effort produces what it can, nothing more.</p>
+
+<p>The same mistake often appears again.<br>
+It appears again, unchanged.<br>
+What is sent out eventually comes back.<br>
+It always comes back.</p>
+
+<div class="divider">—</div>
+
+</body>
+</html>
