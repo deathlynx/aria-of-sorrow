@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Aria of Sorrow</title>
     <style>
         :root {
             --bg-color: #0f0f0f;
             --text-primary: #e0e0e0;
             --accent: #666;
+        }
+
+        * {
+            box-sizing: border-box;
         }
 
         body {
@@ -21,12 +25,14 @@
             justify-content: center;
             line-height: 1.8;
             -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
         }
 
         .content {
             width: 100%;
             max-width: 500px;
             text-align: center;
+            padding-bottom: 40px;
         }
 
         h1 {
@@ -58,8 +64,14 @@
         }
 
         @media (max-width: 480px) {
+            body { padding: 20px 15px; }
             h1 { font-size: 1.5rem; }
             p { font-size: 1rem; }
+        }
+
+        @media (prefers-color-scheme: light) {
+            body { background-color: #ffffff; color: #111111; }
+            .divider { color: #999; }
         }
     </style>
 </head>
