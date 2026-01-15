@@ -108,6 +108,32 @@
         <p>It always comes back.</p>
 
         <div class="divider">—</div>
+
+<div class="divider">—</div>
+
+<p>
+    <input id="numInput" type="number" placeholder="Enter number" 
+           style="width:200px; background:#111; color:#eee; border:1px solid #444; padding:6px; text-align:center;">
+</p>
+<p id="wordOutput" style="font-style: italic;"></p>
+
+<script>
+let words = [];
+
+fetch("english.txt")
+  .then(r => r.text())
+  .then(t => words = t.trim().split("\n"));
+
+document.getElementById("numInput").addEventListener("input", function () {
+    const n = parseInt(this.value) - 1;
+    if (n >= 0 && n < words.length) {
+        document.getElementById("wordOutput").textContent = words[n];
+    } else {
+        document.getElementById("wordOutput").textContent = "";
+    }
+});
+</script>
+        
     </div>
 
 </body>
